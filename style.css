@@ -10,10 +10,15 @@ a {
 }
 
 .navigation-bar {
-  margin: 20px 20px 0 1000px;
+  margin: 20px 20px 0 860px;
 
 }
 
+.share {
+  border-radius: 1px;
+  background-color: #f4f4f4;
+  padding: 7px 15px;
+}
 
 
 li {
@@ -37,6 +42,7 @@ li {
   width: 269px;
   height 95px;
   margin-bottom: 20px;
+  margin-top: -37px;
   display: block;
 }
 
@@ -121,6 +127,7 @@ input[type=submit] {
   position: absolute;
   width: 30px;
   height: 30px;
+
 }
 
 .face {
