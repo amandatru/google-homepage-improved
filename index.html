@@ -2,9 +2,11 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Google</title>
+  <script src="jquery.js"></script>
+  <script src="event.js"></script>
+    <title>Google</title>
   <!-- insert favicon here -->
-<head>
+</head>
 
 <body>
   <div class="container">
@@ -25,15 +27,16 @@
   <center>
     <div class=google-pic>
     <img src="images/google.png" alt="Google">
-    <form action="POST">
+    <!-- <form action="POST"> -->
+    <form onsubmit="return false;">
     </div>
 
       <div class="search-bar">
         <div class="mic"><img src="images/mic.gif"></div>
-        <input type="text" name="search"><br> 
+        <input type="text" id="search"><br> 
       </div>
 
-      <input class="search" type="submit" value="Google Search">
+      <input class="search" type="submit" onclick="getSearch()" value="Google Search">
       <input class="lucky" type="submit" value="I'm Feeling Lucky">
 
     </form>
